@@ -1,4 +1,4 @@
-# Your MWA
+# Modern.js TodoMVC Sample
 
 ## Prerequisites
 
