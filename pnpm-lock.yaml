@@ -4,22 +4,28 @@ specifiers:
   '@modern-js/app-tools': ^1.0.0
   '@modern-js/plugin-jarvis': ^1.0.0
   '@modern-js/runtime': ^1.0.0
+  '@types/nanoid': ^3.0.0
   '@types/node': ^14
   '@types/react': ^17
   '@types/react-dom': ^17
+  classnames: ^2.3.1
   del-cli: ^4.0.1
+  nanoid: ^3.3.1
   react: ^17.0.1
   react-dom: ^17.0.1
   typescript: ^4
 
 dependencies:
   '@modern-js/runtime': 1.2.3_react-dom@17.0.2+react@17.0.2
+  classnames: 2.3.1
+  nanoid: 3.3.1
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
 
 devDependencies:
   '@modern-js/app-tools': 1.4.4_typescript@4.6.3
   '@modern-js/plugin-jarvis': 1.2.4_typescript@4.6.3
+  '@types/nanoid': 3.0.0
   '@types/node': 14.18.12
   '@types/react': 17.0.43
   '@types/react-dom': 17.0.14
@@ -3782,6 +3788,13 @@ packages:
       '@types/node': 14.18.12
     dev: true
 
+  /@types/nanoid/3.0.0:
+    resolution: {integrity: sha512-UXitWSmXCwhDmAKe7D3hNQtQaHeHt5L8LO1CB8GF8jlYVzOv5cBWDNqiJ+oPEWrWei3i3dkZtHY/bUtd0R/uOQ==}
+    deprecated: This is a stub types definition. nanoid provides its own type definitions, so you do not need this installed.
+    dependencies:
+      nanoid: 3.3.1
+    dev: true
+
   /@types/node/14.18.12:
     resolution: {integrity: sha512-q4jlIR71hUpWTnGhXWcakgkZeHa3CCjcQcnuzU8M891BAWA2jHiziiWEPEkdS5pFsz7H9HJiy8BrK7tBRNrY7A==}
 
@@ -4893,6 +4906,10 @@ packages:
       inherits: 2.0.4
       safe-buffer: 5.2.1
     dev: true
+
+  /classnames/2.3.1:
+    resolution: {integrity: sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==}
+    dev: false
 
   /clean-css/4.2.4:
     resolution: {integrity: sha512-EJUDT7nDVFDvaQgAo2G/PJvxmp1o/c6iXLbswsBbUFXi1Nr+AjA2cKmfbKDMjMvzEe75g3P6JkaDDAKk96A85A==}
@@ -8142,7 +8159,6 @@ packages:
     resolution: {integrity: sha512-n6Vs/3KGyxPQd6uO0eH4Bv0ojGSUvuLlIHtC3Y0kEO23YRge8H9x1GCzLn28YX0H66pMkxuaeESFq4tKISKwdw==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
-    dev: true
 
   /native-url/0.2.6:
     resolution: {integrity: sha512-k4bDC87WtgrdD362gZz6zoiXQrl40kYlBmpfmSjwRO1VU0V5ccwJTlxuE72F6m3V0vc1xOf6n3UCP9QyerRqmA==}

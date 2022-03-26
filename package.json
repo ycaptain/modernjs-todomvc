@@ -38,17 +38,20 @@
   ],
   "dependencies": {
     "@modern-js/runtime": "^1.0.0",
+    "classnames": "^2.3.1",
+    "nanoid": "^3.3.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@modern-js/app-tools": "^1.0.0",
     "@modern-js/plugin-jarvis": "^1.0.0",
-    "del-cli": "^4.0.1",
-    "typescript": "^4",
+    "@types/nanoid": "^3.0.0",
+    "@types/node": "^14",
     "@types/react": "^17",
     "@types/react-dom": "^17",
-    "@types/node": "^14"
+    "del-cli": "^4.0.1",
+    "typescript": "^4"
   },
   "modernConfig": {
     "runtime": {
